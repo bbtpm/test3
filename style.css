@@ -1,0 +1,126 @@
+body {
+    font-family: 'Roboto', sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #000;
+    color: #fff;
+}
+
+.container {
+    width: 80%;
+    margin: 0 auto;
+}
+
+.header {
+    background-color: rgba(0, 0, 0, 0.8);
+    padding: 20px 0;
+    text-align: center;
+    position: fixed;
+    width: 100%;
+    top: 0;
+    z-index: 1000;
+}
+
+.logo {
+    font-size: 2rem;
+    color: #00ffff;
+}
+
+.nav-links {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+    display: flex;
+    justify-content: center;
+}
+
+.nav-links li {
+    margin: 0 15px;
+}
+
+.nav-links a {
+    color: #fff;
+    text-decoration: none;
+    font-size: 1.1rem;
+}
+
+.nav-links a:hover {
+    color: #00ffff;
+}
+
+.hero-section {
+    background: url('https://www.nasa.gov/sites/default/files/thumbnails/image/pia24624_hubble_space_background.jpg') no-repeat center center/cover;
+    padding: 100px 0;
+    text-align: center;
+}
+
+.hero-section h2 {
+    font-size: 3rem;
+    margin: 0;
+}
+
+.hero-section p {
+    font-size: 1.2rem;
+}
+
+.btn {
+    background-color: #00ffff;
+    color: #000;
+    padding: 10px 20px;
+    text-decoration: none;
+    font-size: 1rem;
+    border-radius: 5px;
+    display: inline-block;
+    margin-top: 20px;
+}
+
+.btn:hover {
+    background-color: #fff;
+}
+
+.about-section,
+.missions-section,
+.gallery-section,
+.news-section,
+.contact-section {
+    padding: 60px 0;
+    background-color: rgba(0, 0, 0, 0.9);
+    text-align: center;
+}
+
+.about-section h2,
+.missions-section h2,
+.gallery-section h2,
+.news-section h2,
+.contact-section h2 {
+    font-size: 2.5rem;
+    margin-bottom: 20px;
+}
+
+.mission,
+.news-item {
+    margin: 20px 0;
+}
+
+.gallery-grid {
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    gap: 10px;
+}
+
+.gallery-grid img {
+    width: 100%;
+    border-radius: 10px;
+}
+
+footer {
+    background-color: #111;
+    text-align: center;
+    padding: 20px 0;
+}
+
+.btm {
+    margin-bottom: 10;
+    padding: 10;
+    align-items: center;
+}
