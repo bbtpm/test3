@@ -5675,7 +5675,7 @@ body.minimal {
 
 .hero-full-container {
     height: 100vh;
-    background-image: url(./assets/images/space1.jpg);
+    background-image: url(space1.jpg);
 }
 
 .hero-full-container h1 {
